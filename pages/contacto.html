@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="header__logocontenedor">
+            <a class="header__logocontendor--anchor" href="#">
+                <img class="header__logocontenedor--img" src="../img/logo messi.PNG" alt="Messi">
+            </a>
+        </div>
+        <nav class="header__nav">
+            <a class="header__anchor" href="../index.html">Inicio</a>
+            <a class="header__anchor" href="bio.html">Bio</a>
+            <a class="header__anchor" href="galeria.html">Galeria</a>
+            <a class="header__anchor" href="titulos.html">Titulos</a>
+            <a class="header__anchor header__anchor--activo" href="#">Contacto</a>
+        </nav>
+    </header>
+    <main class="main__form">
+        <h1>Formulario</h1>
+        <div class="formulario">
+            <form action="#" method="GET" enctype="text/plain">
+                <fieldset>
+                    <legend>Informacion Personal</legend>
+    
+                    <span>Sexo:</span>
+    
+                    <div>
+                        <label for="Sex">Masculino:</label>
+                        <input type="radio" name="Sex" id="Sex" value="masculino">
+                        <label for="Sex">Femenino:</label>
+                        <input type="radio" name="Sex" id="Sex" value="femenino">
+                    </div>
+    
+                    <div>
+                        <label for="name">Nombre:</label>
+                    </div>
+    
+                    <div>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+    
+                    <div>
+                        <label for="name2">Apellido:</label>
+                    </div>
+    
+                    <div>
+                        <input type="text" name="name2" id="name2" required>
+                    </div>
+    
+                    <div>
+    
+                        <label for="talle">Talle:</label>
+                        <select name="talle" id="talles">
+                            <option value="L">Large</option>
+                            <option value="M">Medium</option>
+                            <option value="S">Small</option>
+                        </select>
+    
+                    </div>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="anchoFooter">
+            <div class="redes">
+                <a href="https://www.instagram.com/leomessi/?hl=es-la" target="_blank"><img class="redes--img" src="../img/instagram.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/leomessi/" target="_blank"><img class="redes--img" src="../img/facebook.png" alt="facebook"></a>
+                <a href="https://www.youtube.com/@LeoMessi" target="blank"><img class="redes--img" src="../img/youtube.png" alt="youtube"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
