@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +9,23 @@
     <title>Titulos</title>
 </head>
 <body>
-    <header>
-        <div class="header__logocontenedor">
-            <a class="header__logocontendor--anchor" href="#">
-                <img class="header__logocontenedor--img" src="../img/logo messi.PNG" alt="Messi">
-            </a>
-        </div>
-        <nav class="header__nav">
-            <a class="header__anchor" href="../index.html">Inicio</a>
-            <a class="header__anchor" href="bio.html">Bio</a>
-            <a class="header__anchor" href="galeria.html">Galeria</a>
-            <a class="header__anchor header__anchor--activo" href="#">Titulos</a>
-            <a class="header__anchor" href="contacto.html">Contacto</a>
+    <header class="color">
+        <nav class=" color navbar navbar-expand-lg bg-body-tertiary color">
+            <div class="container-fluid color">
+              <a class="navbar-brand" href="#"><img class="header__logocontenedor--img" src="../img/logo messi.PNG" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav color">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="./bio.html">Bio</a>
+                  <a class="nav-link" href="#">Titulos</a>
+                  <a class="nav-link" href="./galeria.html">Galeria</a>
+                  <a class="nav-link" href="./contacto.html">Contactos</a>
+                </div>
+              </div>
+            </div>
         </nav>
     </header>
     <main class="main__titulos">
@@ -37,5 +43,6 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
