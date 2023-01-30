@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "Un pakete de node para compilar  SCSS a CSS\t",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origen.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thiago-Marsili/Dylan.git"
+  },
+  "author": "Thiago Marsili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thiago-Marsili/Dylan/issues"
+  },
+  "homepage": "https://github.com/Thiago-Marsili/Dylan#readme"
+}
+
+
