@@ -39,8 +39,12 @@ body{
 .messi img{
     width: 100%;
 }
+.video{
+    padding-bottom: 20px;
+}
 
                                                     /* Footer */
+                                                    
 footer{
     width: 100%;
     bottom: 0;
@@ -171,7 +175,8 @@ footer{
 .main__trofeos{
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;  
 }
                                                 /*Contacto*/
 .formulario{
